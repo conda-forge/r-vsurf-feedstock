@@ -14,16 +14,16 @@ source:
 
 build:
   merge_build_host: True  # [win]
-  number: 1
+  number: 2
+  noarch: generic
   rpaths:
     - lib/R/lib/
     - lib/
-  # Unskip win when r-rborist will be built for this platform
-  skip: True              # [win]
 
 requirements:
   build:
     - {{ posix }}zip               # [win]
+    - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
     - r-rborist
