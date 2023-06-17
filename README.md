@@ -1,11 +1,11 @@
-About r-vsurf
-=============
+About r-vsurf-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-vsurf-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/robingenuer/VSURF
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-vsurf-feedstock/blob/main/LICENSE.txt)
 
 Summary: Three steps variable selection procedure based on random forests. Initially developed to handle high dimensional data (for which number of variables largely exceeds number of observations), the package is very versatile and can treat most dimensions of data, for regression and supervised classification problems. First step is dedicated to eliminate irrelevant variables from the dataset. Second step aims to select all variables related to the response for interpretation purpose. Third step refines the selection by eliminating redundancy in the set of variables selected by the second step, for prediction purpose. Genuer, R. Poggi, J.-M. and Tuleau-Malot, C. (2015) <https://journal.r-project.org/archive/2015-2/genuer-poggi-tuleaumalot.pdf>.
 
