@@ -23,13 +23,13 @@ requirements:
     - {{ posix }}zip               # [win]
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
-    - r-base >=4.2
+    - r-base
     - r-doparallel
     - r-foreach
     - r-randomforest
     - r-rpart
   run:
-    - r-base >=4.2
+    - r-base
     - r-doparallel
     - r-foreach
     - r-randomforest
