@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/VSURF_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/VSURF/VSURF_{{ version }}.tar.gz
-  sha256: c027b1e19762f1eaf4a559c2592f3530210fefd21ee3d7c787c73b776c683393
+  sha256: 0882f2b882e60ef1b5494ed909d7d7702a5291e24bb3de5aa5ed4df3cce3fa83
 
 build:
   number: 3
