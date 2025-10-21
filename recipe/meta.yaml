@@ -1,4 +1,4 @@
-{% set version = "1.2.0" %}
+{% set version = "1.2.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/VSURF_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/VSURF/VSURF_{{ version }}.tar.gz
-  sha256: c027b1e19762f1eaf4a559c2592f3530210fefd21ee3d7c787c73b776c683393
+  sha256: a36cadd51cc167e68adacd1bc049c1332a5702aa262a8d1603673cd3c069748f
 
 build:
-  number: 2
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
